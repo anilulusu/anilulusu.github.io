@@ -204,7 +204,7 @@ a:active {
 .tel {
 	margin-top:-10px;
 	text-align: center;
-	font-family:'Patrick Hand', Cursive;
+	font-family:/*'Patrick Hand'*/'Knewave', Cursive;
 	font-size:200%;
 	}
 
@@ -254,6 +254,7 @@ a:active {
 	float:right;
 	max-width:165px;
 	text-align: left;
+    vertical-align: middle;
 }
 
 .ortaBantAra {
@@ -263,7 +264,7 @@ a:active {
     padding: 0;
     background-color: #D8DBE2;
     width: 1px;
-    height: 128px;
+    height: 178px;
 	}
 
 #altCizgi {

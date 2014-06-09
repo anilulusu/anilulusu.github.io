@@ -66,12 +66,13 @@
 					</object>
 				</noscript>
 			</div>
+            <span style="float:left;">Bunları mutlaka denemelisiniz!</span>
             <div id="arada">
                 <div id="kutuSol">
 					<img style="float:left; height:138px; width:auto;" src="img/waff_ciko.jpg"/>
                     <span class="kutuMetin">
 						<h1>Waffle</h1>
-						<p class="ara">Nefis Mado dondurması ve mutfağımızda tazecik, size özel hazırlanmış waffle. Leziz sos ve mevsim meyveleriyle süslenmiş. Kavacık'ta benzeri yok!</p>
+						<p class="ara">Nefis Mado dondurması ve mutfağımızda tazecik, size özel hazırlanmış waffle. Leziz sos ve mevsim meyveleriyle süslenmiş. <strong>Kavacık'ta benzeri yok!</strong></p>
 					</span>				
                 </div>
 				<div class="ortaBantAra" style="margin: 15px 15px 0px 10px;"></div>
@@ -84,9 +85,8 @@
                 </div>
 				<div class="ortaBantAra" style="margin: 15px 15px 0px 10px;"></div>
                 <div id="kutuSag">
-                   	<img style="float:left; height:128px; width:auto;" src="img/deli.png"/>
-                    <span class="kutuMetin">
-						<h1>Paket Servis</h1>
+                   	<img style="float:left; height:128px; width:auto; padding-left:10px;" src="img/deli.png"/>
+                    <span class="kutuMetin"><br/><br/>
 						<p class="tel">0216</br/>425 28 30</p>
 					</span>				
 
@@ -96,7 +96,7 @@
 		<script>
 			var satir = "<div class='kav font-effect-anaglyph'>Kavacık!</div>";
 			function renkli() {$(".tel").addClass("font-effect-anaglyph");}
-			function ekle() {$("#logoMado > img").after(satir); $(".kav").fadeTo(2000,0.9); $(".kav").animate({"margin-top":"-110px"}, 100, "linear"); setTimeout(renkli,2000);}
+			function ekle() {$("#logoMado > img").after(satir); $(".kav").fadeTo(2000,0.9);          $(".kav").animate({"margin-top":"-110px"}, 100, "linear"); setTimeout(renkli,2000);}
 			$(document).ready(ekle); 	
 		</script>
 	</body>
