@@ -105,6 +105,7 @@ a:active {
 .button {
    float:left;
    margin-right:1px;
+    min-width:100px;
 	/*border-top: 1px solid #e1e8e4;*/
    background: #e2dfdb;
    background: -webkit-gradient(linear, left top, left bottom, from(#efedeb), to(#e2dfdb));
@@ -132,8 +133,8 @@ a:active {
    background: #1b435e;
    }
 .sagKenar {
-	width: 460px;
-    min-width: 300px;
+	width: 143px;
+    min-width: 30px;
 	float:right;
 	position: relative;
 	left:0;
@@ -211,7 +212,7 @@ a:active {
 #anaSwf {
     position: relative;
     z-index: 25;
-    top: -5px;
+    top: -20px;
     margin: 0 auto;
     }
 
