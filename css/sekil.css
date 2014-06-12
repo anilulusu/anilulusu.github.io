@@ -209,10 +209,14 @@ a:active {
 	font-size:200%;
 	}
 
+#cerceveOrta {
+    margin-top:-20px;
+    }
+
 #anaSwf {
     position: relative;
     z-index: 25;
-    top: -20px;
+    /*top: -20px;*/
     margin: 0 auto;
     }
 
@@ -241,13 +245,13 @@ a:active {
 #kutuOrt {
     float: left;
 	height: 128px;
-    width: 30%;
+    width: 31%;
     }
 
 #kutuSag {
     float: left;
 	height: 128px;
-    width: 32%
+    width: 30%
     }
 
 .kutuMetin {
@@ -269,10 +273,11 @@ a:active {
 	}
 
 #altCizgi {
-	width: 900px;
+	top:600;
+    width: 900px;
     min-width: 600px;
 	float: left;
-	position: relative;
+	position: absolute;
 	margin-left: 12px;
 	/*border-top: 1px solid #e1e8e4;*/
    background: #e2dfdb;
@@ -291,3 +296,5 @@ a:active {
    font-family: Helvetica, Arial, Sans-Serif;
    text-decoration: none;
    }
+
+#yedek {visibility: hidden;}

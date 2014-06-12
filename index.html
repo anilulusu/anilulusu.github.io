@@ -14,10 +14,8 @@
 	</head>
 	<body>
 		<div id="cerceveIcerik">
-			<div id="cerceveAna">
-                
-				<div id="cerceveUst">
-					
+			<div id="cerceveAna">               
+				<div id="cerceveUst">					
 				</div>
 				<div id="logoMado">
 					<img style="margin-top:6px;" src="img/logo_mado_anasayfa.png"/>
@@ -31,7 +29,7 @@
 				</div>
 			</div>
 			<div id="cerceveOrta">
-            <div id="anaSwf">
+            <div id="anaSwf" class="sak">
 				<script language="javascript">
 					if (AC_FL_RunContent == 0) {
 						alert("This page requires AC_RunActiveContent.js.");
@@ -61,7 +59,6 @@
 							); //end AC code
 					}
 				</script>
-				<!--embed src="mado_main1.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" play="true" loop="true" scale="showall" wmode="transparent" devicefont="false" bgcolor="#ffffff" name="mado_main1" menu="true" allowfullscreen="false" allowscriptaccess="sameDomain" salign="" type="application/x-shockwave-flash" align="middle" height="300" width="930"--> 
 				<noscript>
 					<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="930" height="250" id="mado_main1" align="middle">
 					<param name="allowScriptAccess" value="sameDomain" />
@@ -70,8 +67,8 @@
 					</object>
 				</noscript>
 			</div>
-            <span style="float:left; margin-left:20px; width:30%; font-size:20px;">Bunları mutlaka denemelisiniz!</span>
-            <div id="arada">
+            <span class="sak" style="float:left; margin-left:20px; width:30%; font-size:20px;">Bunları mutlaka denemelisiniz!</span>
+            <div id="arada" class="sak">
                 <div id="kutuSol">
 					<img style="float:left; height:138px; width:auto;" src="img/waff_ciko.jpg"/>
                     <span class="kutuMetin">
@@ -97,10 +94,14 @@
             </div>
             </div>
 			<div id="altCizgi">.</div>
-            
+<!---->
+        <div id="yedek">
+             <span id="baslik" style="float:left; margin-left:20px; width:30%; font-size:20px;">Sizin için seçtiklerimiz</span>
+        </div>
 		<script>
 			$(document).ready(ekle);         
             $("#cesit").click(cesitler);
+            $("#logoMado").click(home);
 		</script>
 	</body>
 </html>
