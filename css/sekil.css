@@ -219,7 +219,7 @@ a:active {
 #arada {
     position: relative;
     width: 100%;
-	height: 130px;
+	height: 170px;
     float: left;
     padding: 0;
     margin: 12px;
@@ -247,7 +247,7 @@ a:active {
 #kutuSag {
     float: left;
 	height: 128px;
-    width: 30%
+    width: 32%
     }
 
 .kutuMetin {
@@ -273,7 +273,7 @@ a:active {
     min-width: 600px;
 	float: left;
 	position: relative;
-	margin-left: 4px;
+	margin-left: 12px;
 	/*border-top: 1px solid #e1e8e4;*/
    background: #e2dfdb;
    background: -webkit-gradient(linear, left top, left bottom, from(#efedeb), to(#e2dfdb));

@@ -8,8 +8,9 @@
 		<meta name="keywords" content="dondurma,maraş dondurması,kesme dondurma,şerbetli tatlı,sütlü tatlı,salep,www mado com,mado,light tatlı,diyet tatlı,alo mado,dondurmacı,tatlı,sütlü tatlı,waffle,waffel,wafıl,vafıl,vaffle">
 		<link rel="stylesheet" type="text/css" media="all" href="css/sekil.css">
 		<link href='http://fonts.googleapis.com/css?family=Knewave&text=Kavcık0123456789&effect=anaglyph' rel='stylesheet' type='text/css'>
-		<script src="jquery-2.1.1.min.js"></script>
+		<script src="scr/jquery-2.1.1.min.js"></script>
         <script src="scr/AC_RunActiveContent.js"></script>
+        <script src="scr/tertip.js"></script>
 	</head>
 	<body>
 		<div id="cerceveIcerik">
@@ -22,14 +23,15 @@
 					<img style="margin-top:6px;" src="img/logo_mado_anasayfa.png"/>
 				</div>
 				<div id="navAna">
-					<div class="button">Çeşitlerimiz</div>
+					<div id="cesit" class="button">Çeşitlerimiz</div>
 					<div class="button">Ortamımız</div>
 					<div class="button">Yerimiz</div>
                     <a href="http://www.mado.com.tr"><div class="button" id="mado">Mado!</div></a>
 					<div class="sagKenar">.</div>
 				</div>
 			</div>
-			<div id="anaSwf">
+			<div id="cerceveOrta">
+            <div id="anaSwf">
 				<script language="javascript">
 					if (AC_FL_RunContent == 0) {
 						alert("This page requires AC_RunActiveContent.js.");
@@ -82,24 +84,23 @@
 					<img style="float:left; height:138px; width:auto;" src="img/kahv.jpg"/>
                     <span class="kutuMetin">
 						<h1>K.Maraş Köy Kahvaltısı</h1>
-						<p class="ara">6 çeşit peynir, petek bal, kaymak, vişne reçeli, tahin-pekmez, tereyağı, zeytin çeşitleri, gözleme, pastırma, domates, salatalık, sahanda çiftlik yumurta, kızarmış sucuk, ekmek çeşitleri, simit, süt veya çay!</p>
+						<p class="ara">6 çeşit peynir, petek bal, kaymak, vişne reçeli, tahin-pekmez, tereyağı, zeytin çeşitleri, gözleme, pastırma, domates, salatalık, sahanda çiftlik yumurta, kızarmış sucuk, ekmek, simit, süt veya çay!</p>
 					</span>				
                 </div>
-				<div class="ortaBantAra" style="margin: 15px 15px 0px 10px;"></div>
+				<div class="ortaBantAra" style="margin: 15px 10px 0px 5px;"></div>
                 <div id="kutuSag">
                    	<img style="float:left; height:128px; width:auto; padding-left:10px;" src="img/deli.png"/>
                     <span class="kutuMetin"><br/><br/>
 						<p class="tel">0216</br/>425 28 30</p>
-					</span>				
-
+					</span>	
+            </div>
+            </div>
             </div>
 			<div id="altCizgi">.</div>
-		</div>
-		<script>
-			var satir = "<div class='kav font-effect-anaglyph'>Kavacık!</div>";
-			function renkli() {$(".tel").addClass("font-effect-anaglyph");}
-			function ekle() {$("#logoMado > img").after(satir); $(".kav").fadeTo(2000,0.9);          $(".kav").animate({"margin-top":"-110px"}, 100, "linear"); setTimeout(renkli,2000);}
-			$(document).ready(ekle); 	
+            
+		<script src="scr/tertip.js">
+			$(document).ready(ekle);         
+            $("#cesit").click(cesitler);
 		</script>
 	</body>
 </html>
