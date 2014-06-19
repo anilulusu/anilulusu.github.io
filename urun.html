@@ -1,31 +1,54 @@
 <span id="baslik" style="float:left; margin-left:20px; width:30%; font-size:20px;">Sizin için seçtiklerimiz</span>
 <div id="urunler">
         <div class="kutu">
-            <img style="float:left; height:128px; width:auto; padding-left:10px;" src="img/kesme_sade.jpg"/>
-            <div class="kutuMetinKucuk">
-                <h1>Kesme Dondurma</h1>
-                <span style="font-size:small;">Mado kesme dondurma “çatal bıçakla yenen tek dondurma”dır. Bıçakla kesilir, çatalla yenir, neredeyse ısırılarak... Çabuk erimez, serttir ama sakız gibi esner!</span>
-            </div>
+            <img class="resim" src="img/kesme_sade.jpg"/>
+            <h1>Kesme Dondurma</h1>
         </div>
         <div class="kutu">
-            <img style="float:left; height:128px; width:auto; padding-left:10px;" src="img/kesme_sade.jpg"/>
-            <div class="kutuMetinKucuk">
-                <h1>Kesme Dondurma</h1>
-                <span style="font-size:small;">Mado kesme dondurma “çatal bıçakla yenen tek dondurma”dır. Bıçakla kesilir, çatalla yenir, neredeyse ısırılarak... Çabuk erimez, serttir ama sakız gibi esner!</span>
-            </div>
+           <img class="resim" src="img/cevizli-ozel-baklava.jpg"/>
+           <h1>Cevizli Özel Baklava</h1>
         </div>
         <div class="kutu">
-            <img style="float:left; height:128px; width:auto; padding-left:10px;" src="img/kesme_sade.jpg"/>
-            <div class="kutuMetinKucuk">
-                <h1>Kesme Dondurma</h1>
-                <span style="font-size:small;">Mado kesme dondurma “çatal bıçakla yenen tek dondurma”dır. Bıçakla kesilir, çatalla yenir, neredeyse ısırılarak... Çabuk erimez, serttir ama sakız gibi esner!</span>
-            </div>
+            <img class="resim" src="img/ciko_chees.jpg"/>
+            <h1>Çikolatalı Cheesecake</h1>
         </div>
         <div class="kutu">
-            <img style="float:left; height:128px; width:auto; padding-left:10px;" src="img/kesme_sade.jpg"/>
-            <div class="kutuMetinKucuk">
-                <h1>Kesme Dondurma</h1>
-                <span style="font-size:small;">Mado kesme dondurma “çatal bıçakla yenen tek dondurma”dır. Bıçakla kesilir, çatalla yenir, neredeyse ısırılarak... Çabuk erimez, serttir ama sakız gibi esner!</span>
-            </div>
+            <img class="resim" src="img/citir-katlar-arasi-dondurma.jpg"/>
+            <h1>Çıtır Katlar Arası Dondurma</h1>
+        </div>
+        <div class="kutu">
+            <img class="resim" src="img/dondurma-dolgulu-profiterol.jpg"/>
+            <h1>Dondurma Dolgulu Profiterol</h1>
+        </div>
+        <div class="kutu">
+            <img class="resim" src="img/cevizli-sut.jpg"/>
+            <h1>Cevizli Süt</h1>
+        </div>
+        <div class="kutu">
+            <img class="resim" src="img/creme-brule.jpg"/>
+            <h1>Creme Brulee</h1>
+        </div>
+        <div class="kutu">
+            <img class="resim" src="img/espresso.jpg"/>
+            <h1>Espresso</h1>
+        </div>
+        <div class="kutu">
+            <img class="resim" src="img/dumani-uzerinde-kesme-dondurma-tabagi.jpg"/>
+            <h1>Dumanı Üzerinde Kesme Dondurma Tabağı</h1>
+        </div>
+        <div class="kutu">
+            <img class="resim" src="img/ev-yapimi-limonata.jpg"/>
+            <h1>Ev Yapımı Limonata</h1>
+        </div>
+        <div class="kutu">
+            <img class="resim" src="img/firin-sutlac.jpg"/>
+            <h1>Fırın Sütlaç</h1>
+        </div>
+        <div class="kutu">
+            <img class="resim" src="img/kahv.jpg"/>
+            <h1>Kahve</h1>
         </div>
 </div>
+<script>
+    $(".kutu").hover(function() {var x = $(this).find("h1").clone().contents(); $("#baslik").html(x);}, function(){$("#baslik").text("Sizin için seçtiklerimiz");});
+</script>

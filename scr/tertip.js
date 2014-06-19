@@ -18,3 +18,8 @@ function home() {
     $("#cerceveOrta").append($("#yedek").contents());
     } 
 }
+
+function yaz() {
+    $(this).find("h1").clone().appendTo($("#baslik"));
+}
+    

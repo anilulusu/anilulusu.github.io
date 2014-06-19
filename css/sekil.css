@@ -318,7 +318,21 @@ a:active {
 }
 
 .kutu {
+    margin: 2px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    border:1px solid #E8E9EA;
+    box-shadow: 3px 3px 1px #888888;
     float: left;
 	height: 128px;
-    width: 33%;
+    width: 14%;
+}
+
+.kutu > h1 {visibility: hidden;} 
+
+.resim {
+    float:none; 
+    height:128px; 
+    width:auto; 
+    /*padding-left:3px;*/
 }
