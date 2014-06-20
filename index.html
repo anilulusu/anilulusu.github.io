@@ -7,8 +7,8 @@
 		<meta name="description" content="Ev sıcaklığında keyifli anların paylaşıldığı Mado Cafe Kavacık'da size özel lezzetler, tatlı, kesme dondurma, pasta, Maraş dondurması, özel waffle ile sizi bekliyor.">
 		<meta name="keywords" content="dondurma,maraş dondurması,kesme dondurma,şerbetli tatlı,sütlü tatlı,salep,www mado com,mado,light tatlı,diyet tatlı,alo mado,dondurmacı,tatlı,sütlü tatlı,waffle,waffel,wafıl,vafıl,vaffle">
 		<link rel="stylesheet" type="text/css" media="all" href="css/sekil.css">
-		<link href='http://fonts.googleapis.com/css?family=Knewave&text=Kavcık0123456789&effect=anaglyph' rel='stylesheet' type='text/css'>
-		<script src="scr/jquery-2.1.1.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Racing+Sans+One&subset=latin,latin-ext&effect=anaglyph' rel='stylesheet' type='text/css'>
+        <script src="scr/jquery-2.1.1.min.js"></script>
         <script src="scr/AC_RunActiveContent.js"></script>
         <script src="scr/tertip.js"></script>
 	</head>
@@ -22,8 +22,8 @@
 				</div>
 				<div id="navAna">
 					<div id="cesit" class="button">Çeşitlerimiz</div>
-					<div class="button">Ortamımız</div>
-					<div class="button">Yerimiz</div>
+					<!--div class="button">Ortamımız</div-->
+					<div id="yer" class="button">Yerimiz</div>
                     <a href="http://www.mado.com.tr"><div class="button" id="mado">Mado!</div></a>
 					<div class="sagKenar">.</div>
 				</div>
@@ -67,7 +67,7 @@
 					</object>
 				</noscript>
 			</div>
-            <span class="sak" style="float:left; margin-left:20px; width:30%; font-size:20px;">Bunları mutlaka denemelisiniz!</span>
+            <span class="sak font-effect-anaglyph" style="float:left; margin-left:10px; width:50%; text-align:left; font-size:24px; font-family: 'Racing Sans One', cursive;">Bunları mutlaka denemelisiniz !</span>
             <div id="arada" class="sak">
                 <div id="kutuSol">
 					<img style="float:left; height:138px; width:auto;" src="img/waff_ciko.jpg"/>
@@ -102,6 +102,7 @@
 		<script>
 			$(document).ready(ekle);         
             $("#cesit").click(cesitler);
+            $("#yer").click(yer);
             $("#logoMado").click(home);
 		</script>
 	</body>

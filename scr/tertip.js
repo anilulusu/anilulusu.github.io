@@ -1,5 +1,4 @@
-var cesit = "Cesitlerimiz iste bunlardır";
-var satir = "<div class='kav font-effect-anaglyph'>Kavacık!</div>";
+var satir = "<div class='kav font-effect-anaglyph'>Kavacık</div>";
 function renkli() {
     $(".tel").addClass("font-effect-anaglyph");
 }
@@ -10,6 +9,13 @@ function cesitler() {
     $("#yedek").append($("#cerceveOrta").contents());
     $("#cerceveOrta").load("urun.html");
 }
+
+function yer() {
+    if($(".button").filter(":selected").text()==null) {
+        $("#yedek").append($("#cerceveOrta").contents());
+        $("#cerceveOrta").load("yerimiz.html");}
+    else{$("#cerceveOrta").load("yerimiz.html");}}
+
 
 function home() {
     var isim = $("#yedek > div:first").attr("class");

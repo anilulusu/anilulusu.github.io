@@ -81,7 +81,7 @@ a:active {
 	min-width: 960px;
 	width: 960px;
 	/*max-height: 800px;*/
-	height: 800px;
+	height: 650px;
 	text-align: center;
 	}
 
@@ -104,8 +104,8 @@ a:active {
 
 .button {
    float:left;
-   margin-right:1px;
-    min-width:100px;
+   margin-right:2px;
+    min-width:144px;
 	/*border-top: 1px solid #e1e8e4;*/
    background: #e2dfdb;
    background: -webkit-gradient(linear, left top, left bottom, from(#efedeb), to(#e2dfdb));
@@ -191,7 +191,7 @@ a:active {
 	}
 
 .kav {
-	font-family: 'Knewave', cursive;
+	font-family: 'Racing Sans One', cursive;
 	position:relative;
 	color: #123456;
 	font-size: 36px;
@@ -205,7 +205,7 @@ a:active {
 .tel {
 	margin-top:-10px;
 	text-align: center;
-	font-family:/*'Patrick Hand'*/'Knewave', Cursive;
+	font-family:/*'Patrick Hand'*/'Racing Sans One', Cursive;
 	font-size:200%;
 	}
 
@@ -318,7 +318,7 @@ a:active {
 }
 
 .kutu {
-    margin: 2px;
+    margin: 4px 8px;
     padding-top: 3px;
     padding-bottom: 2px;
     border:1px solid #E8E9EA;
@@ -329,10 +329,13 @@ a:active {
 }
 
 .kutu > h1 {visibility: hidden;} 
-
-.resim {
-    float:none; 
-    height:128px; 
-    width:auto; 
-    /*padding-left:3px;*/
+#baslik {
+    width: 94%; height: 30px; 
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=68)"; 
+    filter: alpha(opacity=68); -moz-opacity: 0.68; -khtml-opacity: 0.68; opacity: 0.68; 
+    border: 2px #e1dbdb outset; 
+    background-color: #ededde; float:left; margin-top:-5px;  margin-left:20px; font-size:20px;
+    font-family: 'Racing Sans One', cursive;
 }
+
+.resim { float:none; height:128px; width:auto; }
