@@ -22,76 +22,12 @@
 				</div>
 				<div id="navAna">
 					<div id="cesit" class="button">Çeşitlerimiz</div>
-					<!--div class="button">Ortamımız</div-->
 					<div id="yer" class="button">Yerimiz</div>
                     <a href="http://www.mado.com.tr"><div class="button" id="mado">Mado!</div></a>
 					<div class="sagKenar">.</div>
 				</div>
 			</div>
 			<div id="cerceveOrta">
-            <div id="anaSwf" class="sak">
-				<script language="javascript">
-					if (AC_FL_RunContent == 0) {
-						alert("This page requires AC_RunActiveContent.js.");
-					} else {
-						AC_FL_RunContent(
-							'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0',
-							'width', '930',
-							'height', '250',
-							'src', 'swf/urunler',
-							'quality', 'high',
-							'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
-							'align', 'middle',
-							'play', 'true',
-							'loop', 'true',
-							'scale', 'showall',
-							'wmode', 'transparent',
-							'devicefont', 'false',
-							'id', 'mado_main1',
-							'bgcolor', '#ffffff',
-							'name', 'mado_main1',
-							'menu', 'true',
-							'allowFullScreen', 'false',
-							'allowScriptAccess','sameDomain',
-							'movie', 'urunler',
-							'salign', ''
-			
-							); //end AC code
-					}
-				</script>
-				<noscript>
-					<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="930" height="250" id="mado_main1" align="middle">
-					<param name="allowScriptAccess" value="sameDomain" />
-					<param name="allowFullScreen" value="false" />
-					<param name="movie" value="swf/urunler.swf" /><param name="quality" value="high" /><param name="wmode" value="transparent" /><param name="bgcolor" value="#ffffff" />	<embed src="swf/urunler.swf" quality="high" wmode="opaque" bgcolor="#ffffff" width="930" height="250" name="urunler" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
-					</object>
-				</noscript>
-			</div>
-            <span class="sak font-effect-anaglyph" style="float:left; margin-left:10px; width:50%; text-align:left; font-size:24px; font-family: 'Racing Sans One', cursive;">Bunları mutlaka denemelisiniz !</span>
-            <div id="arada" class="sak">
-                <div id="kutuSol">
-					<img style="float:left; height:138px; width:auto;" src="img/waff_ciko.jpg"/>
-                    <span class="kutuMetin">
-						<h1>Waffle</h1>
-						<p class="ara">Nefis Mado dondurması ve mutfağımızda tazecik, size özel hazırlanmış waffle. Leziz sos ve mevsim meyveleriyle süslenmiş. <strong>Kavacık'ta benzeri yok!</strong></p>
-					</span>				
-                </div>
-				<div class="ortaBantAra" style="margin: 15px 15px 0px 10px;"></div>
-                <div id="kutuOrt">
-					<img style="float:left; height:138px; width:auto;" src="img/kahv.jpg"/>
-                    <span class="kutuMetin">
-						<h1>K.Maraş Köy Kahvaltısı</h1>
-						<p class="ara">6 çeşit peynir, petek bal, kaymak, vişne reçeli, tahin-pekmez, tereyağı, zeytin çeşitleri, gözleme, pastırma, domates, salatalık, sahanda çiftlik yumurta, kızarmış sucuk, ekmek, simit, süt veya çay!</p>
-					</span>				
-                </div>
-				<div class="ortaBantAra" style="margin: 15px 10px 0px 5px;"></div>
-                <div id="kutuSag">
-                   	<img style="float:left; height:128px; width:auto; padding-left:10px;" src="img/deli.png"/>
-                    <span class="kutuMetin"><br/><br/>
-						<p class="tel">0216</p><p class="tel">425 28 30</p>
-					</span>	
-            </div>
-            </div>
             </div>
 			<div id="altCizgi">.</div>
         </div>
@@ -161,8 +97,8 @@
             </div>
             </div>
         </div>
-		<script>
-			$(document).ready(ekle);         
+		<script>		
+            $(document).ready(ekle);        
             $("#cesit").click(function() {$("#cerceveOrta").empty().load("urun.html");});
             $("#yer").click(function() {$("#cerceveOrta").empty().load("yerimiz.html");});
             $("#logoMado").click(function() {$("#cerceveOrta").empty().append($("#yedek").contents().clone());});
