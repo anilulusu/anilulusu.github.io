@@ -99,9 +99,20 @@
         </div>
 		<script>		
             $(document).ready(ekle);        
-            $("#cesit").click(function() {$("#cerceveOrta").empty().load("urun.html");});
-            $("#yer").click(function() {$("#cerceveOrta").empty().load("yerimiz.html");});
-            $("#logoMado").click(function() {$("#cerceveOrta").empty().append($("#yedek").contents().clone());});
+            $("#cesit").click(function() {
+                $("#cerceveOrta").empty().load("urun.html");
+                $(".button").removeClass("sha");
+                $("#cesit").addClass("sha");
+            });
+            $("#yer").click(function() {
+                $("#cerceveOrta").empty().load("yerimiz.html");
+                $(".button").removeClass("sha");
+                $("#yer").addClass("sha");
+            });
+            $("#logoMado").click(function() {
+                $("#cerceveOrta").empty().append($("#yedek").contents().clone());
+                $(".button").removeClass("sha");
+            });
 		</script>
 	</body>
 </html>

@@ -132,6 +132,11 @@ a:active {
    border-top-color: #1b435e;
    background: #1b435e;
    }
+
+.sha {
+    box-shadow: 6px 6px 5px #888888;
+}
+    
 .sagKenar {
 	width: 143px;
     min-width: 30px;
@@ -318,7 +323,7 @@ a:active {
 }
 
 .kutu {
-    margin: 4px 8px;
+    margin: 8px;
     padding-top: 3px;
     padding-bottom: 2px;
     border:1px solid #E8E9EA;
