@@ -17,7 +17,8 @@ img {
 }
 
 ul {
-	margin: 0;
+	list-style-type: none;
+    margin: 0;
 	padding: 0;
 	border: 0;
 }
@@ -344,3 +345,14 @@ a:active {
 }
 
 .resim { float:none; height:128px; width:auto; }
+
+#yer1 {margin-top:-12px;} #yer1>img {margin-top:-12px;}
+#yer2 {float:left; width: 48%; border-right-style:solid; border-right-color:#e2dfdb; border-right-width:6px;} 
+#yer2>ul>li {
+    list-style-type: square; 
+    list-style-image: url(../img/hands.png); 
+    list-style-position: inside; 
+    text-align:left; 
+    padding-left:20px;
+}
+#yer3 {float:right; width: 48%;}
