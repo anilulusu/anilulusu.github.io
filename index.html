@@ -22,18 +22,13 @@
 					<img style="margin-top:6px;" src="img/logo_mado_anasayfa.png"/>
 				</div>
 				<div id="navAna">
-					<div id="cesit" class="button">Çeşitlerimiz</div>
-					<div id="yer" class="button">Yerimiz</div>
+					<a href="urun.html"><div id="cesit" class="button">Çeşitlerimiz</div></a>
+					<a href="yerimiz.html"><div id="yer" class="button">Yerimiz</div></a>
                     <a href="http://www.mado.com.tr"><div class="button" id="mado">Mado!</div></a>
 					<div class="sagKenar">.</div>
 				</div>
 			</div>
 			<div id="cerceveOrta">
-            </div>
-			<div id="altCizgi">.</div>
-        </div>
-<!---->
-        <div id="yedek">
             <div id="anaSwf" class="sak">
 				<script language="javascript">
 					if (AC_FL_RunContent == 0) {
@@ -96,31 +91,18 @@
 					</span>	
             </div>
             </div>
+                
+            </div>
+			<div id="altCizgi"><ul style="float:left;">
+                <li><a href="index.html">ana sayfa</a></li>
+                <li><a href="urun.html">çeşitler</a></li>
+                <li><a href="yerimiz.html">yerimiz</a></li>
+                <li><a href="http://www.mado.com.tr">mado</a></li>
+            </ul></div>
         </div>
-        <span class="geo">
-            <span class="latitude">
-                <span class="value-title" title="41.093759" ></span>
-            </span>
-            <span class="longitude">
-                <span class="value-title" title="29.09163"></span>
-            </span>
-        </span>
+<!---->
 		<script>		
             $(document).ready(ekle);        
-            $("#cesit").click(function() {
-                $("#cerceveOrta").empty().load("urun.html");
-                $(".button").removeClass("sha");
-                $("#cesit").addClass("sha");
-            });
-            $("#yer").click(function() {
-                $("#cerceveOrta").empty().load("yerimiz.html");
-                $(".button").removeClass("sha");
-                $("#yer").addClass("sha");
-            });
-            $("#logoMado").click(function() {
-                $("#cerceveOrta").empty().append($("#yedek").contents().clone());
-                $(".button").removeClass("sha");
-            });
-		</script>
+        </script>
 	</body>
 </html>

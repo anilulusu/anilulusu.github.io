@@ -305,11 +305,15 @@ a:active {
 	border-radius: 5px;
    text-shadow: rgba(0,0,0,.4) 0 1px 0;
    color: #efedeb;
-   font-size: 17px;
+   font-size: 13px;
    font-family: Helvetica, Arial, Sans-Serif;
    text-decoration: none;
    }
-
+#altCizgi li {
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+}
 #yedek {visibility: hidden;}
 
 #urunler {
