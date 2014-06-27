@@ -108,7 +108,7 @@ a:active {
    margin-right:2px;
     min-width:144px;
 	/*border-top: 1px solid #e1e8e4;*/
-   background: #e2dfdb;
+   /*background: #e2dfdb;*/
    background: -webkit-gradient(linear, left top, left bottom, from(#efedeb), to(#e2dfdb));
    background: -webkit-linear-gradient(top, #efedeb, #e2dfdb);
    background: -moz-linear-gradient(top, #efedeb, #e2dfdb);
