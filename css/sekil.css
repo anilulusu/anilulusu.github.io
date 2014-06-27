@@ -112,7 +112,7 @@ a:active {
    background: -webkit-gradient(linear, left top, left bottom, from(#efedeb), to(#e2dfdb));
    background: -webkit-linear-gradient(top, #efedeb, #e2dfdb);
    background: -moz-linear-gradient(top, #efedeb, #e2dfdb);
-   background: linear-gradient(to top left, #efedeb, #e2dfdb);
+   background: linear-gradient(to top left, #efedeb, #000000);
    background: -o-linear-gradient(top, #efedeb, #e2dfdb);
    padding: 7px 17px;
    -webkit-border-radius: 0;
@@ -149,7 +149,7 @@ a:active {
    background: -webkit-gradient(linear, left top, left bottom, from(#efedeb), to(#e2dfdb));
    background: -webkit-linear-gradient(top, #efedeb, #e2dfdb);
    background: -moz-linear-gradient(top, #efedeb, #e2dfdb);
-   background: linear-gradient(to top left, #efedeb, #e2dfdb);
+   background: linear-gradient(to top left, #efedeb, #000000 /*#e2dfdb*/);
    background: -o-linear-gradient(top, #efedeb, #e2dfdb);
    padding: 7px 17px;	
    -webkit-border-top-right-radius: 5px;
