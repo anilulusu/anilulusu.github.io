@@ -292,20 +292,18 @@ a:active {
 	}
 
 #altCizgi {
-	bottom: 10px;
+	top:600;
     width: 900px;
     min-width: 600px;
 	float: left;
 	position: absolute;
 	margin-left: 12px;
 	/*border-top: 1px solid #e1e8e4;*/
-   filter: progid:DXImageTransform.Microsoft.gradient( 
-    startColorstr='#efedeb',endColorstr='#e2dfdb',GradientType=0 );
-    background: #e2dfdb;
-    background: -webkit-gradient(linear, left top, left bottom, from(#efedeb), to(#e2dfdb));
+   background: #e2dfdb;
+   background: -webkit-gradient(linear, left top, left bottom, from(#efedeb), to(#e2dfdb));
    background: -webkit-linear-gradient(top, #efedeb, #e2dfdb);
    background: -moz-linear-gradient(top, #efedeb, #e2dfdb);
-   background: linear-gradient(to top, #efedeb 0%, #e2dfdb 100%);
+   background: -ms-linear-gradient(top, #efedeb, #e2dfdb);
    background: -o-linear-gradient(top, #efedeb, #e2dfdb);
    padding: 6.5px 17px;	
    -webkit-border-radius: 5px;
