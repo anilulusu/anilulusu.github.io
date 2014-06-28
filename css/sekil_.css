@@ -106,18 +106,18 @@ a:active {
 .button {
    float:left;
    margin-right:2px;
-    height: 21px;
     min-width:144px;
+    min-height:21px;
 	/*border-top: 1px solid #e1e8e4;*/
    /*background: #e2dfdb;*/
    filter: progid:DXImageTransform.Microsoft.gradient( 
     startColorstr='#efedeb',endColorstr='#e2dfdb',GradientType=0 );
     background: #e2dfdb;
     background: -webkit-gradient(linear, left top, left bottom, from(#efedeb), to(#e2dfdb));
-   background: -webkit-linear-gradient(top, #efedeb, #e2dfdb);
-   background: -moz-linear-gradient(top, #efedeb, #e2dfdb);
+   background: -webkit-linear-gradient(top, #e2dfdb, #efedeb);
+   background: -moz-linear-gradient(top, #e2dfdb, #efedeb);
    background: linear-gradient(to top, #efedeb 0%, #e2dfdb 100%);
-   background: -o-linear-gradient(top, #efedeb, #e2dfdb);
+   background: -o-linear-gradient(top, #e2dfdb, #efedeb);
    padding: 7px 17px;
    -webkit-border-radius: 0;
    -moz-border-radius: 0;
@@ -143,10 +143,10 @@ a:active {
 }
     
 .sagKenar {
-	width: 143px;
+	width: 120px;
     min-width: 30px;
-   height:21px;
-	float:right;
+   min-height: 21px;
+	float:left;
 	position: relative;
 	left:0;
 	/*border-top: 1px solid #e1e8e4;*/
@@ -294,19 +294,20 @@ a:active {
 	}
 
 #altCizgi {
-	bottom:10px;
+	bottom: 10px;
     width: 900px;
-    height:20px;
-    min-width: 600px;
+    min-width: 600px; min-height: 20px;
 	float: left;
 	position: absolute;
-	margin-left: 12px;
+	left: 12px;
 	/*border-top: 1px solid #e1e8e4;*/
-   background: #e2dfdb;
-   background: -webkit-gradient(linear, left top, left bottom, from(#efedeb), to(#e2dfdb));
+   filter: progid:DXImageTransform.Microsoft.gradient( 
+    startColorstr='#efedeb',endColorstr='#e2dfdb',GradientType=0 );
+    background: #e2dfdb;
+    background: -webkit-gradient(linear, left top, left bottom, from(#efedeb), to(#e2dfdb));
    background: -webkit-linear-gradient(top, #efedeb, #e2dfdb);
    background: -moz-linear-gradient(top, #efedeb, #e2dfdb);
-   background: -ms-linear-gradient(top, #efedeb, #e2dfdb);
+   background: linear-gradient(to top, #efedeb 0%, #e2dfdb 100%);
    background: -o-linear-gradient(top, #efedeb, #e2dfdb);
    padding: 6.5px 17px;	
    -webkit-border-radius: 5px;
