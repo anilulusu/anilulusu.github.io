@@ -300,7 +300,8 @@ a:active {
     min-width: 600px;
 	float: left;
 	position: absolute;
-	margin-left: 12px;
+    left:10px;
+	/*margin-left: 12px;*/
 	/*border-top: 1px solid #e1e8e4;*/
    background: #e2dfdb;
    background: -webkit-gradient(linear, left top, left bottom, from(#efedeb), to(#e2dfdb));
